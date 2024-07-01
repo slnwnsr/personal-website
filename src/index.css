@@ -1,14 +1,11 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: "Lexend", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  /* background: linear-gradient(-45deg, #aba8ff, #7571e2, #aba8ff, #aba8ff);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite; */
 }
 
 code {
@@ -16,22 +13,56 @@ code {
     monospace;
 }
 
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+
+.lexend-title {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+}
+
+.lexend-text {
+  font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: white;
+  /* font-size: 10; */
+}
+
 .landing {
   height: 100vh;
+  /* width: 100vw; */
   background: #fff;
-  padding: 20px;
-  width: 100%;
-  background: linear-gradient(-45deg, #aba8ff, #7571e2, #aba8ff, #aba8ff);
+  padding-top: 1px;
+  background: linear-gradient(-45deg, #aba8ff, #5e5ad1, #aba8ff, #5e5ad1);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 12s ease infinite;
+  color: white;
+  /* text-align: center; */
 }
 
 .landing .landing-text {
-  color: white;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 70px;
+  font-size: 3em
 }
 
 .landing .landing-title {
-  color: white;
+  text-align: left;
+  /* align: center; */
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 11em;
+}
+
+.center {
+  display: flex;
+  /* justify-content: center; */
 }
 
 /* Found on https://www.sliderrevolution.com/resources/css-animated-background/ */
